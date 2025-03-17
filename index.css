@@ -448,14 +448,19 @@ footer h2 {
   justify-content: center;
   align-items: center;
   width: 30%;
-  padding: 32px;
+  
   box-shadow: 0 0 20px #a9aaab;
   border: none;
   outline: none;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: 0px;
   color: #ffffff;
   transition: 0.5s ease;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 50px;
 }
 
 .project-card:hover {
@@ -464,7 +469,7 @@ footer h2 {
 }
 
 .projects-container .project-card img {
-  height: 150px;
+  height: 90%;
   width: 100%;
   border-radius: 12px;
 }
